@@ -25,3 +25,5 @@ jobs:
         with:
           commit_message: 'build'
           branch: ${{ github.head_ref }}
+      - name: Deploy
+        run: npm run deploy
