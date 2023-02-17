@@ -26,4 +26,7 @@ jobs:
           commit_message: 'build'
           branch: ${{ github.head_ref }}
       - name: Deploy
-        run: npm run deploy
+        run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: npm run deploy
