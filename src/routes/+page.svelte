@@ -13,9 +13,9 @@
 
 <table>
     <tr>
-        <th>Before</th>
+        <th>Original Image</th>
         <th></th>
-        <th>After</th>
+        <th>Processed Image</th>
     </tr>
     <tr>
         <!-- svelte-ignore a11y-img-redundant-alt -->
