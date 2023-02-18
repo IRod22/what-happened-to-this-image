@@ -11,8 +11,6 @@
     $: css = `filter: blur(${blur? `${blur}px` : "0"}) brightness(${brightness}%) contrast(${contrast}%) grayscale(${grayscale}%) hue-rotate(${hueRotate}deg) invert(${inversion}%) sepia(${sepia}%) `
 </script>
 
-<h1>What Happened to This Image?</h1>
-
 <table>
     <tr>
         <th>Before</th>
