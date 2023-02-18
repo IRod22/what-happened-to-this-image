@@ -12,7 +12,7 @@
 		<link rel="modulepreload" href="/what-happened-to-this-image/internal/immutable/components/pages/_layout.svelte-26fbdb56.js">
 		<link rel="modulepreload" href="/what-happened-to-this-image/internal/immutable/modules/pages/_layout.ts-9cbb603b.js">
 		<link rel="modulepreload" href="/what-happened-to-this-image/internal/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="/what-happened-to-this-image/internal/immutable/components/pages/_page.svelte-15d21fdc.js">
+		<link rel="modulepreload" href="/what-happened-to-this-image/internal/immutable/components/pages/about/_page.svelte-4654fe53.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
@@ -23,26 +23,19 @@
 <nav><a href="/what-happened-to-this-image/">Home</a>
     <a href="/what-happened-to-this-image/about">About</a></nav>
 
-<table><tr><th>Original Image</th>
-        <th></th>
-        <th>Processed Image</th></tr>
-    <tr>
-        <td><img style="filter: blur(0) brightness(100%) contrast(100%) grayscale(0%) hue-rotate(0deg) invert(0%) sepia(0%) " src="" alt="Original image"></td>
-        <td>→</td>
-        
-        <td><img src="" alt="Changed image"></td></tr>
-    <tr><td><label>URL: <input type="text" value=""></label></td>
-        <td></td>
-        <td><label>URL: <input type="text" value=""></label></td></tr></table>
+<h2>About</h2>
 
-<fieldset><legend>Image filters</legend>
-    <p><label>Blur: <input type="number" min="0" step="1" value="0"> (no change)</label></p>
-    <p><label>Brightness: <input type="number" min="0" step="1" value="100">% (no change)</label></p>
-    <p><label>Contrast: <input type="number" min="0" step="1" value="100">% (no change)</label></p>
-    <p><label>Grayscale: <input type="number" min="0" max="100" step="1" value="0">%  (no change)</label></p>
-    <p><label>Hue rotation: <input type="number" min="0" max="359" step="1" value="0"> degrees  (no change)</label></p>
-    <p><label>Inversion: <input type="number" min="0" max="100" step="1" value="0">%  (no change)</label></p>
-    <p><label>Sepia: <input type="number" min="0" max="100" step="1" value="0">%  (no change)</label></p></fieldset>
+<section><h3>What is this?</h3>
+    <p>This is a website where you can take two images (the original image and the processed image)
+        and see how the first image was processed to become the second image.
+    </p></section>
+
+<section><h3>Who is this for?</h3>
+    <p>This is for game developers who are having trouble with designing game UI and for graphic designers who are having trouble with image processing.</p>
+    <ul><li>Is Adobe Xd messing up your game UI?</li>
+        <li>is your Blender creation converting to a PNG with unexpected results?</li>
+        <li>Is your Autodesk Inventor part (IPT) not being rendered properly in your Autodesk Inventor project file?</li></ul>
+    <p>Well, you have come to the right place!</p></section>
 
 <section><h3>How do I use this?</h3>
     <ol><li>Paste the URL of the original image into the &quot;URL&quot; field under the &quot;Original Image&quot; area.
@@ -59,16 +52,16 @@
         </li></ol></section>
 
 
-		<script type="module" data-sveltekit-hydrate="1fa26db">
+		<script type="module" data-sveltekit-hydrate="1y51jgs">
 			import { start } from "/what-happened-to-this-image/internal/immutable/start-10b20bd4.js";
 
 			start({
 				assets: "/what-happened-to-this-image",
 				env: {},
-				target: document.querySelector('[data-sveltekit-hydrate="1fa26db"]').parentNode,
+				target: document.querySelector('[data-sveltekit-hydrate="1y51jgs"]').parentNode,
 				version: "1676750867144",
 				hydrate: {
-					node_ids: [0, 2],
+					node_ids: [0, 3],
 					data: [null,null],
 					form: null,
 					error: null
