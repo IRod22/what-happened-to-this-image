@@ -20,11 +20,6 @@ jobs:
       - name: Build
         run: npm run build
       - run: touch build/.nojekyll
-      - name: Save
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 'build'
-          branch: ${{ github.head_ref }}
       - name: Deploy
         run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
         env:
