@@ -19,7 +19,6 @@ jobs:
         run: npm i
       - name: Build
         run: npm run build
-      - run: touch build/.nojekyll
       - name: Deploy
         run: git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
         env:
