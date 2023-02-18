@@ -18,6 +18,7 @@ const config = {
 		paths: {
 		    base: process.env.NODE_ENV === "production" ? "/what-happened-to-this-image" : "",
 		},
+		appDir: 'internal'
 	}
 };
 
